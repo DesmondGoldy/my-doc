@@ -1,0 +1,32 @@
+[
+  {
+    "id": "01-快速入门.md",
+    "title": "快速入门",
+    "path": "/docs/01-快速入门.md",
+    "content": "# 快速入门\r\n\r\n欢迎使用个人文档中心。这是一个基于 React 和 Vite 构建的纯前端文档系统。\r\n\r\n## 功能特性\r\n\r\n- **纯前端**：无需后端，直接读取 Markdown 文件。\r\n- **自动目录**：自动生成侧边栏目录。\r\n- **实时搜索**：支持文档内容搜索。\r\n\r\n## 基础语法\r\n\r\nMarkdown 支持以下基础语法：\r\n\r\n*斜体*\r\n**粗体**\r\n~~删除线~~\r\n\r\n> 引用文本\r\n\r\n"
+  },
+  {
+    "id": "02-API参考.md",
+    "title": "API 参考",
+    "path": "/docs/02-API参考.md",
+    "content": "# API 参考\r\n\r\n本系统提供以下核心 API。\r\n\r\n## useDocs Hook\r\n\r\n```typescript\r\nconst { docs, loading, error } = useDocs();\r\n```\r\n\r\n| 参数 | 类型 | 说明 |\r\n|------|------|------|\r\n| docs | Array | 文档列表 |\r\n| loading | boolean | 加载状态 |\r\n| error | Error | 错误信息 |\r\n\r\n## 渲染组件\r\n\r\n`MarkdownRenderer` 组件用于渲染 Markdown 内容。\r\n"
+  },
+  {
+    "id": "03-开发指南.md",
+    "title": "开发指南",
+    "path": "/docs/03-开发指南.md",
+    "content": "# 开发指南\r\n\r\n## 项目结构\r\n\r\n- `src/`\r\n  - `components/`: UI 组件\r\n  - `hooks/`: 自定义 Hooks\r\n  - `pages/`: 页面组件\r\n- `public/docs/`: 文档存放目录\r\n\r\n## 添加文档\r\n\r\n只需在 `public/docs` 目录下添加 `.md` 文件，重新构建即可。\r\n\r\n### 多级标题示例\r\n\r\n#### 四级标题\r\n内容...\r\n\r\n##### 五级标题\r\n内容...\r\n"
+  },
+  {
+    "id": "04-常见问题.md",
+    "title": "常见问题",
+    "path": "/docs/04-常见问题.md",
+    "content": "# 常见问题\r\n\r\n## 如何部署？\r\n\r\n由于是纯静态站点，你可以部署到任何静态托管服务：\r\n\r\n1. GitHub Pages\r\n2. Vercel\r\n3. Netlify\r\n\r\n![部署流程](/vite.svg)\r\n\r\n## 图片支持\r\n\r\n支持相对路径和绝对路径图片。\r\n\r\n[点击这里访问官网](https://vitejs.dev)\r\n"
+  },
+  {
+    "id": "05-更新日志.md",
+    "title": "更新日志",
+    "path": "/docs/05-更新日志.md",
+    "content": "# 更新日志\r\n\r\n## 2024-01-20\r\n\r\n- 初始化项目\r\n- 添加 Markdown 渲染支持\r\n\r\n## 2024-01-21\r\n\r\n- 增加搜索功能\r\n- 优化移动端适配\r\n"
+  }
+]
